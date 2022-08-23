@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    font-family: 'Raleway', 'Century Gothic', sans-serif;
+    font-size: 16px;
+    color:#1f2d53;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    background-color: #669999;
+    color: #fff;
+  }
+
+
+  h1 {
+    font-size: 2.625em;
+    font-family: 'Holland', sans-serif;
+  }
+  
+  h2 {
+    font-style: bold;
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-style: bold;
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a {
+    font-size: 1.25em;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #1f2d53;
+  }
+  
+  main {
+    display: inline-block;
+    max-width: 1200px;
+    margin: 2% 5%;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    background-color: #669999;
+    color: #fff;
+  }
+
+  .intro {
+    display: flex;
+    align: left;
+    width: 100%;
+  }
+
+  .module {
+    display: flex;
+    max-width: 1200px;
+    margin: 2% 5%;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    border-right: #1f2d53 5px solid;
+  }
+
+  .content {
+    float: right;
+    width: 80%;
+    display: block;
+    padding: 5%;
+  }
+
+  .applications {
+    display: flex;
+  }
