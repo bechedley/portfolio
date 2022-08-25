@@ -14,8 +14,8 @@ Links to my past work can be found by opening the web page and navigating via th
 
 Website URL: (https://bechedley.github.io/portfolio/)
 
-    md
-    ![Screenshot of webpage with splitscreen showing the Chrome dev tools window](assets/images/webpage-screenshot.jpg)
+
+![Screenshot of webpage with splitscreen showing the Chrome dev tools window](assets/images/webpage-screenshot.jpg)
     
 
 ## Credits
