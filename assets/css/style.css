@@ -69,9 +69,18 @@ body {
     color: #fff;
   }
 
+  a {
+    color: #1f2d53;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #669999;
+  }
+
   .intro {
     display: flex;
-    align: left;
+    text-align: left;
     width: 100%;
   }
 
@@ -84,16 +93,126 @@ body {
   .column {
     float: left;
     width: 20%;
+    min-width: 250px;
     border-right: #1f2d53 5px solid;
+  }
+
+  .column img {
+    max-width: 220px;
+    border-radius: 5%;
   }
 
   .content {
     float: right;
     width: 80%;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5%;
+  }
+
+  #first {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #669999;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  #first img {
+    width: 100%;
   }
 
   .applications {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 320px;
+    background-color: #669999;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  .applications img {
+    width: 320px;
+    height: 320px;
+  }
+
+  form {
+    max-width: 400px;  
+  }
+  
+  .text-input {
+    width: 100%;
+    max-width: 100%;
+    line-height: 2.5;
+    border: #1f2d53 1px solid;
+    padding: 2%;
+  }
+
+  button {
+    padding: 2% 5%;
+    color: #fff;
+    background-color: #669999;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+    button:hover {
+    color: #1f2d53;
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .module {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 100%;
+        float: none;
+        border-right: none;
+        border-bottom: #1f2d53 5px solid;
+    }
+  }
+
+  .content {
+    float: none;
+    width: 100%;
+  }
+
+  .applications {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #669999;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  .applications img {
+    width: 100%;
+    height: auto;
   }
