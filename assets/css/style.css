@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
-    font-family: 'Raleway', 'Century Gothic', sans-serif;
+    font-family: 'Raleway', 'ITC Kabel', 'Futura Maxi', 'ITC Avant Garde', 'Century Gothic', sans-serif;
     font-size: 16px;
     color:#1f2d53;
   }
@@ -19,7 +19,7 @@ body {
 
   h1 {
     font-size: 2.625em;
-    font-family: 'Holland', sans-serif;
+    font-family: 'Holland', 'Bombshell Pro', 'Mission Script', 'Insolente', 'Daqncing Script', 'Qwitcher Grypen', 'Satisfy', 'Great Vibes', 'Lucida Handwriting', serif;
   }
   
   h2 {
@@ -169,6 +169,7 @@ body {
     color: #1f2d53;
   }
 
+  /* Updated flex properties for mobile responsiveness */
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
@@ -181,6 +182,7 @@ body {
         align-items: center;
     }
 
+    /* Switch left-hand content to sit above corresponding section */
     .module {
         display: flex;
         flex-direction: column;
@@ -190,16 +192,16 @@ body {
 
     .column {
         width: 100%;
-        float: none;
         border-right: none;
         border-bottom: #1f2d53 5px solid;
     }
   }
 
   .content {
-    float: none;
     width: 100%;
   }
+
+  /* Changed to match #first once all items are full width */
 
   .applications {
     display: flex;
